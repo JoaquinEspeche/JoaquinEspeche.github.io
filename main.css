@@ -1,0 +1,46 @@
+.container-fluid {
+    height: 60px;
+}
+.navbar-collapse {
+    
+    justify-content: center;
+    
+    
+}
+.navbar{
+    
+    background-color: rgb(20, 27, 31) !important;
+    font-family: 'Franklin Gothic Medium';
+    opacity: 75%;
+   
+    
+}
+
+.img-right{
+    position: fixed;
+    
+}
+
+.color{
+    background-color: rgb(21, 27, 31);
+}
+
+.form-padding{
+    padding: 25px;
+    margin-top: 150px;
+    width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    .img-right{
+        position: static;
+        
+    }
+}
