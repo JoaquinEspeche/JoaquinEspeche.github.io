@@ -1,5 +1,15 @@
-.container-fluid {
-    height: 60px;
+
+
+
+/* Navbar */
+.navbar{
+    
+    background-color: rgb(20, 27, 31) !important;
+    font-family: 'Taviraj';
+    opacity: 75%;
+    font-size: 22px;
+   
+    
 }
 .navbar-collapse {
     
@@ -7,24 +17,27 @@
     
     
 }
-.navbar{
-    
-    background-color: rgb(20, 27, 31) !important;
-    font-family: 'Franklin Gothic Medium';
-    opacity: 75%;
-   
-    
+.container-fluid {
+    height: 60px;
 }
+
+/* Navbar-IMG/TXT */
 
 .img-right{
     position: fixed;
     
 }
 
+.text-nav{
+    font-family: 'Taviraj';
+    font-size: 22px;
+}
+
+/* Body Color */
 .color{
     background-color: rgb(21, 27, 31);
 }
-
+/* Form */
 .form-padding{
     padding: 25px;
     margin-top: 150px;
@@ -34,9 +47,50 @@
     justify-content: center;
 }
 
+/* Carousel */
+.h2-text{
+    text-align: center;
+    margin-top: -60px;
+    position: fixed;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.carousel-indicators{
+    display: none !important;
+}
+.carousel-caption{
+    color: white !important;
+    padding: 4px !important;
+    margin-bottom: -20px;
+    opacity: 95% !important;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    
+}
+.carousel-padding{
+
+    margin-top: 180px;
+    justify-content: center;
+    padding: 10px;
+    height: auto;
+    max-width: 1000px;
+}
+
+.imgcarousel{
+    max-height: 450px;
+    max-width: 1000px;
+
+
+}
+
+.bg-body{
+    background-color: rgb(21, 27, 31) !important;
+}
 
 
 
+/* navbar img */
 
 @media (max-width: 991px) {
     .img-right{
