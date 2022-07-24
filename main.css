@@ -58,7 +58,7 @@
 .h2-text{
     justify-content: center !important;
     text-align: center !important;
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex !important;
     color: white;
     font-family: 'Roboto Mono', monospace; 
@@ -79,7 +79,7 @@
 }
 .carousel-padding{
 
-    margin-top: 180px;
+    margin-top: 110px;
     justify-content: center;
     padding: 10px;
     height: auto;
