@@ -46,7 +46,7 @@
 /* Form */
 .form-padding{
     padding: 25px;
-    margin-top: 110px;
+    margin-top: 70px;
     width: 350px;
     height: auto;
     display: flex;
@@ -58,7 +58,7 @@
 .h2-text{
     justify-content: center !important;
     text-align: center !important;
-    margin-top: 80px;
+    margin-top: 120px;
     display: flex !important;
     color: white;
     font-family: 'Roboto Mono', monospace; 
@@ -79,7 +79,7 @@
 }
 .carousel-padding{
 
-    margin-top: 110px;
+    margin-top: 70px;
     justify-content: center;
     padding: 10px;
     height: auto;
