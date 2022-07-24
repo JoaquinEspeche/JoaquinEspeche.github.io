@@ -22,6 +22,12 @@
 }
 
 /* Navbar-IMG/TXT */
+.red-icons{
+    right: 10px;
+
+
+}
+
 
 .img-right{
     position: fixed;
@@ -40,20 +46,24 @@
 /* Form */
 .form-padding{
     padding: 25px;
-    margin-top: 150px;
+    margin-top: 110px;
     width: 350px;
     height: auto;
     display: flex;
     justify-content: center;
 }
 
+
 /* Carousel */
 .h2-text{
-    text-align: center;
-    margin-top: -60px;
-    position: fixed;
+    justify-content: center !important;
+    text-align: center !important;
+    margin-top: -80px;
+    display: flex !important;
+    position: fixed !important;
     color: white;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 5px;
 }
 
 .carousel-indicators{
@@ -75,6 +85,7 @@
     padding: 10px;
     height: auto;
     max-width: 1000px;
+    
 }
 
 .imgcarousel{
@@ -93,8 +104,57 @@
 /* navbar img */
 
 @media (max-width: 991px) {
-    .img-right{
-        position: static;
+    .text-nav{
         
+        left: 80px;
+        
+        
+
     }
 }
+
+@media (max-width: 375px) {
+    .red-icons{
+        
+        display: none !important;
+        
+        
+
+    }
+    .text-nav{
+        
+        left: 100px;
+        
+        
+
+    }
+}@media (max-width: 768px) {
+    .h2-text{
+
+        margin-top: -90px;
+
+    }
+    .carousel-padding{
+
+        margin-top: 350px;
+        max-height: 600px;
+        max-width: 600px;
+    }
+    .form-padding{
+
+        margin-top: 235px;
+        max-height: 600px;
+        max-width: 600px;
+        width: 300px;
+        height: 340px;
+    
+
+    }
+    .imgcarousel{
+        max-height: 250px;
+        max-width: 1000px;
+    
+    
+    }
+}
+
