@@ -58,9 +58,8 @@
 .h2-text{
     justify-content: center !important;
     text-align: center !important;
-    margin-top: -80px;
+    margin-top: 100px;
     display: flex !important;
-    position: fixed !important;
     color: white;
     font-family: 'Roboto Mono', monospace; 
     font-size: 5px;
@@ -131,18 +130,18 @@
 }@media (max-width: 768px) {
     .h2-text{
 
-        margin-top: -90px;
+        margin-top: 300px;
 
     }
     .carousel-padding{
 
-        margin-top: 350px;
+        margin-top: 50px;
         max-height: 600px;
         max-width: 600px;
     }
     .form-padding{
 
-        margin-top: 235px;
+        margin-top: 50px;
         max-height: 600px;
         max-width: 600px;
         width: 300px;
