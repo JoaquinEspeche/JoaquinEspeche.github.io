@@ -1,12 +1,41 @@
 
 
-
+/* text */
+.margin{
+  margin-bottom: 30px;
+}
+.pindex{
+    font-size: 25px;
+    margin: 40px;
+}
+.paboutme{
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace; 
+}
+h1{
+    color: gold;
+    margin: 30px;
+}
+h2{
+    margin: 10px;
+    color: rgb(88, 164, 235);
+    
+}
 /* Navbar */
+.close{
+    justify-content: right !important;
+
+   
+}
+.offcanvas{
+    background-color: rgb(21, 27, 31) !important ;
+}
 .navbar{
     
     background-color: rgb(20, 27, 31) !important;
     font-family: 'Taviraj';
-    opacity: 75%;
     font-size: 22px;
    
     
@@ -20,12 +49,15 @@
 .container-fluid {
     height: 60px;
 }
+/* IMG INDEX */
+.img-index{
+    
+    max-height: 600px;
+}
 
 /* Navbar-IMG/TXT */
 .red-icons{
     right: 10px;
-
-
 }
 
 
@@ -111,6 +143,13 @@
 
     }
 }
+@media (max-width: 425px) {
+    .img-index{
+    
+        max-height: 400px;
+    }
+    
+}
 
 @media (max-width: 375px) {
     .red-icons{
@@ -128,11 +167,6 @@
 
     }
 }@media (max-width: 768px) {
-    .h2-text{
-
-        margin-top: 300px;
-
-    }
     .carousel-padding{
 
         margin-top: 50px;
