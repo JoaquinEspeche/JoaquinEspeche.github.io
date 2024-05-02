@@ -16,7 +16,7 @@
 }
 h1{
     color: gold;
-    margin: 30px;
+    margin: 5px;
 }
 h2{
     margin: 10px;
@@ -53,6 +53,8 @@ h2{
 .img-index{
     
     max-height: 600px;
+    border-radius: 20px;
+    border-color: black;
 }
 
 /* Navbar-IMG/TXT */
@@ -78,11 +80,12 @@ h2{
 /* Form */
 .form-padding{
     padding: 25px;
-    margin-top: 70px;
+    margin-top: 50px;
     width: 350px;
     height: auto;
     display: flex;
     justify-content: center;
+    border-radius: 20px;
 }
 
 
@@ -90,7 +93,7 @@ h2{
 .h2-text{
     justify-content: center !important;
     text-align: center !important;
-    margin-top: 120px;
+    margin-top: 80px;
     display: flex !important;
     color: white;
     font-family: 'Roboto Mono', monospace; 
